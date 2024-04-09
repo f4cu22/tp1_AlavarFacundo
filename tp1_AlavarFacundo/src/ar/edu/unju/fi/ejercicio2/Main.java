@@ -23,6 +23,7 @@ public class Main {
 		coseno=(float)0.877582562;
 		System.out.println("El cálculo de coseno de 0.5: "+coseno+". ");
 		
+		
 	}
 
 }
