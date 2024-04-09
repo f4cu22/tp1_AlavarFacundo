@@ -17,8 +17,8 @@ public class Main {
 		float suma = (num1+num2+num3+num4+num5);
 		float promedio= (float) suma/5 ;
 		System.out.println("Los numeros a promediar son: "+num1+", "+num2+", "+num3+", "+num4+", "+num5+".");
-		System.out.println("El promedio es: "+promedio);
-
+		System.out.println("El promedio es: "+promedio+"");
+		
 	}
 
 }
