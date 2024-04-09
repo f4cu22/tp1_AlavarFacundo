@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		//Ejercicio 1 - Calcular el promedio y guarde el resultado en otra variable.
+		//Ejercicio 1 - Calcular el promedio y guarde el resultado en otra variable
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Ingrese 5 numeros enteros a promediar: ");
 		Integer num1 =scanner.nextInt();
@@ -17,7 +17,7 @@ public class Main {
 		System.out.println("Los numeros a promediar son: "+num1+", "+num2+", "+num3+", "+num4+", "+num5+".");
 		System.out.println("El promedio es: "+promedio);
 		scanner.close();
-
+		
 	}
 
 }
