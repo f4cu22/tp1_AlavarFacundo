@@ -21,7 +21,7 @@ public class Main {
 		telefono="+54 388 4123456.";
 		System.out.println("Número de teléfono.: "+telefono);
 		coseno=(float)0.877582562;
-		System.out.println("El cálculo de coseno de 0.5: "+coseno+".");
+		System.out.println("El cálculo de coseno de 0.5: "+coseno+". ");
 		
 	}
 
