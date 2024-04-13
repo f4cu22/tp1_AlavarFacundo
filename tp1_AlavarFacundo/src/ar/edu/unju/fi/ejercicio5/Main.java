@@ -19,6 +19,7 @@ public class Main {
 		}
 		else
 			System.out.println("Esta fuera de rango");
+		scanner.close();
 	}
 
 }
