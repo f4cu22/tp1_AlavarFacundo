@@ -22,7 +22,7 @@ public class main {
         }
 
         while(true){
-            System.out.print("¿Agregar ingredientes especiales? [s]i/[n]o: ");
+            System.out.print("¿Agregar ingredientes especiales? s / n: ");
             char respuesta = scanner.next().charAt(0);
             if(respuesta == 's' || respuesta == 'S' ){
                 pizza.setIngredientesEspeciales(true);
@@ -31,7 +31,7 @@ public class main {
                 pizza.setIngredientesEspeciales(false);
                 break;
             } else {
-                System.out.println("Ingrese una respuesta válida. S/s o N/n");
+                System.out.println("Ingrese una respuesta válida. s o n");
             }
         }
 
@@ -47,10 +47,8 @@ public class main {
             pizza.calcularPrecio();
             pizza.calcularArea();
 
-            System.out.println("--------------------------------------");
             System.out.println("** Pizza " + (i+1) + " **");
             System.out.println(pizza);
-            System.out.println("--------------------------------------");
         }
 
         scanner.close();

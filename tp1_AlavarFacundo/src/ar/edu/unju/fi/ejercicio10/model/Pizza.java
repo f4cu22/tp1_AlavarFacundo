@@ -13,10 +13,8 @@ public class Pizza {
 
     @Override
     public String toString() {
-        return  "Diametro = " + diametro + '\n' +
-                "Ingredientes especiales = " + ingredientesEspeciales + '\n' +
-                "Precio Pizza = $" + precio + '\n' +
-                "Area de la pizza = " + area;
+        return  "Diametro : " + diametro +". "+"Ingredientes especiales : " + ingredientesEspeciales +". " +
+                "Precio Pizza : $" + precio +". " + "Area de la pizza : " + area;
     }
 
     public Integer getDiametro() {
