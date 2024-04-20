@@ -21,6 +21,7 @@ public class Main {
         for (int i = 0; i < miArray.length; i++) {
             System.out.println(i + "\t" + miArray[i]);
         }
+        scanner.close();
 	}
 
 }
