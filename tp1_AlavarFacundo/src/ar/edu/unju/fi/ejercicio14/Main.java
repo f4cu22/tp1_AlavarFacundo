@@ -13,12 +13,12 @@ public class Main {
 		do {
             System.out.print("Ingrese un número entero entre 3 y 10: ");
             array = scanner.nextInt();
-        } while (array <= 3 || array >= 10);
+        } while (array < 3 || array > 10);
 		
 		//crea array de tamaño
 		int[] num = new int[array];
 		
-		//ingreso se numeros
+		//ingreso de numeros
 		for (int i = 0; i < num.length; i++) {
             System.out.print("Ingrese un número entero para la posición " + i + ": ");
             num[i] = scanner.nextInt();
