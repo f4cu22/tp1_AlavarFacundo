@@ -52,7 +52,7 @@ public class Main {
         for (int i = 0; i < nombres.length; i++) {
             System.out.println(i + ": " + nombres[i]);
         }
-        
+        scanner.close();
 	}
 	
 
