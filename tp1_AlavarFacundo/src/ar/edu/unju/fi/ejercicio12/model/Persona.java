@@ -1,5 +1,12 @@
 package ar.edu.unju.fi.ejercicio12.model;
-
+/**
+*Clase persona que contiene metodos para calcular años,
+*signo zodiacal, y estacion del año en que nacio
+*
+*@author Alavar, Facundo Nicolás
+*@version 1.0
+*
+*/
 import java.util.Calendar;
 
 public class Persona {

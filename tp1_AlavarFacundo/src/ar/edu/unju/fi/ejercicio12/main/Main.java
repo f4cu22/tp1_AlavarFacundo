@@ -1,5 +1,12 @@
 package ar.edu.unju.fi.ejercicio12.main;
-
+/**
+*Clase main que representa el ingreso de datos
+*de una persona (nombre y fecha de nacimiento)
+*
+*@author Alavar, Facundo Nicolás
+*@version 1.0
+*
+*/
 
 import java.util.Calendar;
 import java.util.Scanner;

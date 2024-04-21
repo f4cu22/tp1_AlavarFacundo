@@ -1,5 +1,12 @@
 package ar.edu.unju.fi.ejercicio16;
-
+/**
+*Clase main que representa la definicion y creeacion de
+* array para almacenar 5 elementos de tipo String
+*
+*@author Alavar, Facundo Nicolás
+*@version 1.0
+*
+*/
 import java.util.Scanner;
 
 public class Main {

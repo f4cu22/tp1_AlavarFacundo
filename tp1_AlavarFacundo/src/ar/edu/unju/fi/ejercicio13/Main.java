@@ -1,5 +1,12 @@
 package ar.edu.unju.fi.ejercicio13;
-
+/**
+*Clase main que representa la creacion de un array de 8 elementos, 
+*que permita almacenar números enteros
+*
+*@author Alavar, Facundo Nicolás
+*@version 1.0
+*
+*/
 import java.util.Scanner;
 
 public class Main {

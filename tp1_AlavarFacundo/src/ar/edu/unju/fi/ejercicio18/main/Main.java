@@ -1,5 +1,12 @@
 package ar.edu.unju.fi.ejercicio18.main;
-
+/**
+*Clase main que representa el menu de opciones
+*para un viaje
+*
+*@author Alavar, Facundo Nicolás
+*@version 1.0
+*
+*/
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

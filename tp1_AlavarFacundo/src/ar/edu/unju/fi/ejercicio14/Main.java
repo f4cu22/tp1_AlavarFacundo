@@ -1,5 +1,12 @@
 package ar.edu.unju.fi.ejercicio14;
-
+/**
+*Clase main que representa el ingreso por consola de un número entero,
+* que se encuentre en el rango [3,10]
+*
+*@author Alavar, Facundo Nicolás
+*@version 1.0
+*
+*/
 import java.util.Scanner;
 
 public class Main {

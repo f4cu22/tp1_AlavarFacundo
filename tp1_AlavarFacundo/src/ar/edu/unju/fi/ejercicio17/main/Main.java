@@ -1,5 +1,11 @@
 package ar.edu.unju.fi.ejercicio17.main;
-
+/**
+*Clase main que representa el menu para un jugador
+*
+*@author Alavar, Facundo Nicolás
+*@version 1.0
+*
+*/
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
