@@ -3,7 +3,19 @@ package ar.edu.unju.fi.ejercicio17.model;
 import java.time.LocalDate;
 import java.time.Period;
 
+/**
+*Clase que representa a un Jugador
+*
+*@author Alavar, Facundo Nicolás
+*@version 1.0
+*
+*/
 public class Jugador {
+	/*
+	*----------------------------
+	*--------atributos--------
+	*----------------------------
+	*/
 	private String nombre;
 	private String apellido;
 	private LocalDate fechaNacimiento;
@@ -11,8 +23,21 @@ public class Jugador {
 	private double estatura;
 	private double peso;
 	private String posicion;
-	
-	//constructor
+	/*
+	*----------------------------
+	*--------constructores--------
+	*----------------------------
+	*/
+	/**
+	*Constructor parametrizado
+	*@param nombre valor del jugador
+	*@param apellido valor del jugador
+	*@param fechaNacimiento valor del jugador
+	*@param nacionalidad valor del jugador
+	*@param estatura valor del jugador
+	*@param peso valor del jugdor
+	*@param posicion valor del jugador
+	*/
 	public Jugador(String nombre, String apellido, LocalDate fechaNacimiento, String nacionalidad, double estatura,
 			double peso, String posicion) {
 		super();
@@ -24,15 +49,20 @@ public class Jugador {
 		this.peso = peso;
 		this.posicion = posicion;
 	}
-
-//metodo para calcular la edad
+	/*
+	*----------------------------------
+	*--------metodos accesores--------
+	*--------------------------------
+	*/
+	
+	//metodo para calcular la edad
 	public int calcularEdad() {
 		LocalDate fechaActual = LocalDate.now();
     	Period periodo = Period.between(this.fechaNacimiento, fechaActual);
     	return periodo.getYears();
 	}
 
-//getters y setters
+	//getters y setters
 	public String getNombre() {
 		return nombre;
 	}
