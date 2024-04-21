@@ -17,7 +17,7 @@ public class Main {
 	private static Scanner sc;
     private static List<Jugador> jugadores;
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		sc = new Scanner(System.in); 
 		jugadores = new ArrayList<Jugador>();
         
 		int opcion=0;
@@ -38,7 +38,7 @@ public class Main {
 				System.out.println("Opcion invalida. Intente de nuevo.");
 			}
 		}while(opcion != 8);
-		scanner.close();
+		sc.close();
 	}
 	
 		//metodo para buscar un jugador por nombre y apellido

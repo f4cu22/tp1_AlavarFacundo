@@ -18,16 +18,16 @@ public class Main {
     private static List<DestinoTuristico> destinosTuristicos;
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner (System.in);
+		sc = new Scanner(System.in);
 		destinosTuristicos = new ArrayList<>();
 		paises = new ArrayList<>();
 		
 		int opcion = 0;
 		cargarPaises();
+		
 		do {
 			try {
 				opcion=menu();
-				scanner.nextLine(); // Consumir el salto de línea después del número
 				
 				switch (opcion) {
 				case 1:{ altaDestinoTuristico(); break; }
@@ -44,13 +44,13 @@ public class Main {
 				}
 				} catch (InputMismatchException e) {
 	                System.out.println("Error: Ingrese una opción válida.");
-	                scanner.nextLine(); // Limpiar el buffer de entrada
+	                sc.nextLine(); // Limpiar el buffer de entrada
 	            } catch (Exception e) {
 	                System.out.println("Error: " + e.getMessage());
-	                scanner.nextLine(); // Limpiar el buffer de entrada
+	                sc.nextLine(); // Limpiar el buffer de entrada
 	            }
 				}while(opcion != 9);
-			scanner.close();
+			sc.close();
 			}
 	/**
 	 * Metodo para cargar paises
@@ -89,11 +89,12 @@ public class Main {
 		//Alta de destino turístico (para asociar el país se ingresa el código de páis)
 		System.out.println("Ingrese el código del destino turístico:");
         String codigo = sc.nextLine();
+        sc.nextLine(); // Consumir el salto de línea 
         System.out.println("Ingrese el nombre del destino turístico:");
         String nombre = sc.nextLine();
         System.out.println("Ingrese el precio del destino turístico:");
         double precio = sc.nextDouble();
-        sc.nextLine(); // Consumir el salto de línea después del número
+        sc.nextLine(); // Consumir el salto de línea 
         System.out.println("Lista de países disponibles:");
         for (Pais pais : paises) {
             System.out.println(pais.getCodigo() + " - " + pais.getNombre());
